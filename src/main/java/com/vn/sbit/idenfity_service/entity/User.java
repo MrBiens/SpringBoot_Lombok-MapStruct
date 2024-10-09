@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 import java.time.LocalDate;
 
 @Entity
-@Data
+@Data //có getter,setter,tostring, comperable...
 @NoArgsConstructor //constructor null
 @AllArgsConstructor // constuctor đầy đủ thuộc tính
 @FieldDefaults(level = AccessLevel.PRIVATE)
