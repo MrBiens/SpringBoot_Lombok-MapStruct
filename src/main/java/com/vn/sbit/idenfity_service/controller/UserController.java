@@ -20,7 +20,8 @@ import java.util.List;
 @RequiredArgsConstructor//sẽ tự động Injection dependency mà không ần @Autowired
 @FieldDefaults(level = AccessLevel.PRIVATE,makeFinal = true) //những attribute nào không khai báo sẽ mặc định là private, final NameAttribute;
 public class UserController {
-
+   
+//@RequiredArgsConstructor//sẽ tự động Injection dependency mà không ần @Autowired 
    UserService userService;
 
     @PostMapping
